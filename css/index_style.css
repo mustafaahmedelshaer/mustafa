@@ -1,0 +1,524 @@
+body{
+    background-color: #fff
+}
+.navbarborder
+{
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px 10px gray;
+}
+#Home {
+    width: 100%;
+    height: 100vh;
+}
+
+.homeslider {
+height: 100%;
+}
+.homesliderimg {
+    width: 100%;
+    height: 100%;
+}
+.homeslidercaption{
+    
+    bottom: 30% !important;
+}
+
+.homeslidercaption h1 {
+    font-weight: 900;
+    font-size: 100px;
+
+}
+
+.darklayer{
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+.home-btn {
+    color: #fff;
+    background-color: #00c3da !important;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.2s;
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+}
+.home-btn:hover {
+    background-color: #09d7ee !important;  
+    top: -1px;
+
+}
+
+
+.home-btn2 {
+    color: #fff;
+    background-color:transparent !important;
+    border: 1px solid white;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.5s;
+    letter-spacing: 0.1rem;
+}
+.home-btn2:hover {
+    color: rgb(0, 0, 0);
+    background-color: white !important;
+    border: 1px solid white;
+}
+
+.slidercontrolnext {
+    top: 38%;
+    left: 0px;
+    height: 50px;
+    width: 5rem;
+}
+
+.slidercontrolprev {
+    top: 47%;
+    left: 0px;
+    height: 50px;
+    width: 5rem;
+
+}
+.carouselparent {
+
+}
+.carouselhover{
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: white;
+    transition: width 0.3s;
+}
+.carouselparent:hover .carouselhover {
+    width: 100%;
+}
+
+.iconnext {
+    color: white;
+    transition-delay:0.3s ;
+}
+.carouselparent:hover .iconnext {
+    color: black;
+}
+
+
+
+
+
+
+/* about me */
+
+.aboutcaption {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    margin: 20px 0;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #787888;
+}
+#about span::before {
+    content: "";
+    width: 100%;
+    color: #00c3da;
+    border-right: 1px solid white;
+    animation: type 5s   infinite;
+}
+
+
+@keyframes type {
+    0% {        content: "A";    }
+    2% {        content: "Ap";    }
+    4% {        content: "App";    }
+    6% {        content: "Apps";    }
+    10% {        content: "App";    }
+    12% {        content: "Ap";    }
+    14% {        content: "A";    }
+    16% {        content: "W";    }
+    18% {        content: "We";    }
+    20% {        content: "Wep";    }
+    22% {        content: "Webs";    }
+    24% {        content: "Websi";    }
+    26% {        content: "Websit";    }
+    28% {        content: "Website";    }
+    30% {        content: "Websites";    }
+    36% {        content: "Websit";    }
+    38% {        content: "Websi";    }
+    40% {        content: "Webs";    }
+    42% {        content: "Web";    }
+    44% {        content: "We";    }
+    46% {        content: "W";    }
+    48% {        content: "";    }
+    56% {        content: "S";    }
+    58% {        content: "So";    }
+    60% {        content: "Sof";    }
+    62% {        content: "Soft";    }
+    64% {        content: "Softw";    }
+    66% {        content: "Softwa";    }
+    68% {        content: "Softwar";    }
+    70% {        content: "Software";    }
+    72% {        content: "Softwares";    }
+    75% {        content: "";    }
+
+}
+
+
+.about-btn {
+    background-color: transparent;
+    border: 1px solid rgb(196, 195, 195) !important;
+}
+.about-btn:hover {
+    background-color: black;
+    color: white;
+    
+}
+
+/* Team */ 
+
+.sectionheader {
+    font-size: 38px;
+    letter-spacing: -1px;
+    font-weight: 800;
+    
+}
+.sectionheader::before {
+    content: "C";
+    position: absolute;
+    left:48%;
+    bottom: -10%;
+    font-size: 4rem;
+    color: rgba(5, 5, 5, 0.1);
+}
+.sectioncaption {
+    color: #787878;
+}
+
+.layer{
+    background-color: rgba(0, 195, 218, 0.9);
+        top: 15%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.layer ul {
+    list-style: none;
+}
+
+.teamcaption {
+
+    position: absolute;
+    bottom: 1%;
+    text-align: left;
+}
+
+.layer:hover {
+    top: 0px;
+    opacity: 1;
+}
+
+
+
+
+#services
+{
+    background-color: #1f1f1f;
+    opacity: .7;
+    color: white;
+
+}
+
+
+
+.servicesicon {
+    color: rgb(3, 53, 28);
+    position: relative;
+    z-index: 2;
+    
+    
+}
+.servicesiconbg{
+    color: white;
+    position:absolute;
+    bottom:53%;
+    left: 41%;
+}
+.bigletter{
+    font-weight: 900;
+}
+.bigletter::before {
+    content: "W";
+    position: absolute;
+    bottom: -5px;
+    left: -10px;
+    font-size: 4rem;
+    opacity: 0.1;
+}
+
+
+.servicesul {
+    list-style: none;
+}
+
+
+
+
+
+/* pricing */
+
+#pricing {
+    background-color: #f7f7f7;
+}
+
+
+
+.pricecaption {
+    line-height: 2.5;
+}
+
+.oneprice .dolar {
+        font-size: 3rem;
+        font-weight: 800;
+    position: absolute;
+    top: 1px;
+
+}
+.price-btn {
+    color: #fff;
+    background-color: #00c3da !important;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.2s;
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+}
+.price-btn:hover {
+    background-color: #09d7ee !important;  
+    top: -1px;
+
+}
+.onepricegold {
+    width: 115%;
+    position: relative;
+    bottom: 5%;
+    right: 7%;
+}
+
+.pricegold {
+    color:  #00c3da;
+}
+.goldcaption {
+    font-size: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #09d7ee !important;  
+    border-radius: 25px;
+}
+
+
+
+
+
+/* testimonialimg */
+#testimonial {
+    background-color: #f7f7f7;
+}
+.testimonial {
+    background-color: white;
+    overflow: visible !important;
+}
+
+.testimonialimg {
+    position: absolute;
+    bottom: 75%;
+    left: 43%;
+    width: 130px;
+}
+
+
+
+.contactheader {
+    font-weight: 800;
+}
+
+.contactheader::before {
+    content: "G";
+    position: absolute;
+    left:0%;
+    bottom: -10%;
+    font-size: 4rem;
+    color: rgba(5, 5, 5, 0.1);
+}
+
+
+input {
+    display: block;
+    width: 70%;
+    height: 40px;
+    padding: 0 15px;
+    font-size: 15px;
+    line-height: 50px;
+    border: 2px solid #eee;
+}
+
+textarea {
+    display: block;
+    width: 70%;
+    height: 100px;
+}
+
+
+
+.tesarrowl{
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transition: all 0.5;
+}
+.tesarrowl:hover{
+    left: -5px;
+}
+.tesarrowr{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transition: all 0.5;
+}
+.tesarrowr:hover{
+    right: -5px;
+}
+
+.indicators-test
+{
+    background-color: grey !important;
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+}
+
+.indicators-test.active {
+    background-color: cyan !important;
+}
+.test {
+    top: 110%;
+}
+
+
+.testicon {
+    font-size: 2rem;
+    color: gray;
+    transition: all 0.5s;
+}
+.testicon:hover {
+    font-size: 2.1rem;
+    color: cyan;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px)
+{
+    .carousel-caption .font-big {
+        font-size: 4rem;
+    }
+
+    .testimonialimg {
+        width: 120px;
+        bottom: 80%;
+        left: 35%;
+    }
+    .servicesiconbg{
+        color: white;
+        position:absolute;
+        bottom:53%;
+        left: 46%;
+    }
+}
+
+
+@media only screen and (min-width: 600px) 
+{
+   
+    .testimonialimg {
+        width: 120px;
+        bottom: 80%;
+        left: 35%;
+    }
+    
+
+
+    .servicesiconbg{
+        color: white;
+        position:absolute;
+        bottom:53%;
+        left: 46%;
+    }
+}
+
+@media only screen and (min-width: 768px) 
+{
+    .testimonialimg {
+        width: 120px;
+        bottom: 80%;
+        left: 40%;
+    }
+
+    
+    .servicesiconbg{
+        color: white;
+        position:absolute;
+        bottom:56%;
+        left: 41%;
+    }
+}
+
+
+
+@media only screen and (min-width: 992px) 
+{
+    .testimonialimg {
+        width: 120px;
+        bottom: 80%;
+        left: 44%;
+    }
+    
+    .servicesiconbg{
+        color: white;
+        position:absolute;
+        bottom:61%;
+        left: 39%;
+    }
+}
+
+@media only screen and (min-width: 1200px) 
+{
+    .testimonialimg {
+        width: 120px;
+        bottom: 80%;
+        left: 45%;
+    }
+    .servicesiconbg{
+        color: white;
+        position:absolute;
+        bottom:55%;
+        left: 39%;
+    }
+}
